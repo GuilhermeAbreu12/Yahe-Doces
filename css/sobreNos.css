@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(88, 46, 0);
+}
+
+.container-fluid > a, .nav-item > a {
+    color: white;
+    border: 2px solid rgb(88, 46, 0);
+    border-radius: 5px;
+}
+.nav-item > a:hover {
+    border-color: white;
+    color: white;
+}
+.navbar {
+    background-color: #294936;
+}
+.bg-body-tertiary {
+    background-color: rgba(var(--whitesmoke), var(--whitesmoke)) !important;
+    /*OBS: Não faço a menor ideia do que é isso, mas estava impedindo a navbar de ficar da cor certa, tem um desse no código original do bootstrap*/
+}
+.conteudo {
+    padding: 4%;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: Montserrat Alternates;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+#sub-title {
+    text-align: center;
+}
+p {
+    text-align: justify;
+}
+footer {
+    margin-top: 2vh;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item>a {
+    color: white;
+    border: 2px solid rgb(92, 46, 9);
+    border-radius: 5px;
+}
+.nav-item>a:hover {
+    color: white;
+    border-color: white;
+}
+.pagina {
+    height: 95vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 241, 216);
+}
+.conteudo {
+    padding: 2%;
+    color: black;
+}
+#botao_enviar {
+    padding: 0.5% 2% 0.5% 2%;
+    margin-right: 2vw;
+    color: white;
+    background-color:  rgb(92, 46, 9);
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid  rgb(92, 64, 9);
+}
+#botao_enviar:hover {
+    background-color: green;
+    border-color: green;
+}
+#mensagem_sucesso {
+    color:  rgb(92, 46, 9);
+    display: inline-block;
+}
+.row {
+    width: 100%;
+}
