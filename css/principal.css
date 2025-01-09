@@ -34,13 +34,8 @@ header {
     color: white;
     border-color: white;
 }
-.nav-item>a.card-pai-titulo {
-    color: white;
-    border-width: 2px;
-    border-radius: 50px;
-}
-.nav-item>a.card-pai-titulo:hover {
-    border: 2px solid rgb(123, 63, 0);
+.dropdown-item:hover{
+    background-color: gainsboro;
 }
 #botao_pesquisa {
     color: white;
@@ -62,44 +57,57 @@ header {
     border: 2px solid white;
     border-radius: 5px;
 }
-.inicio {
+#filter {
+    height: 89%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(88, 46, 0, 40%);
+}
+#inicio {
+    height: 89vh;
     width: auto;
-    height: 100vh;
-    padding-top: 15%;
-    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: black;
-    background-color: rgb(88, 46, 0);
+    background-image: url('https://www.designi.com.br/images/preview/11131864.jpg');
+    background-size: cover;
 }
-.inicio > h1 {
+
+#inicio > h1 {
     color: white;
     font-size: 5em;
     font-weight: 700;
+    z-index: 2;
 }
-.inicio > h2 {
+#inicio > h2 {
     color: yellow;
     font-family: cursive;
+    z-index: 2;
 }
-#botao_produtos{   
+a#botao_produtos{   
     padding: 0.6%;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(210, 105, 30);
     border-radius: 30px;
-    border: 1px solid rgb(210, 105, 30);
     background-color: rgb(180, 94, 32);
 }
 #botao_produtos:hover {
+    transition: .7s;
     background-color: rgb(123, 63, 0);
-    border: 1px solid rgb(180, 94, 32);
+    box-shadow: 0 0 20px rgb(180, 94, 32);
 }
-a #botao_produtos {
-    color: white;
-    text-decoration: none;
-}
-
 #titulo-sessoes {
+    margin-top: 2%;
+    text-align: center;
     color: white;
     background-color: rgb(123, 63, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
 
 }
 .section-title {
