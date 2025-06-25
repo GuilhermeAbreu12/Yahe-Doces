@@ -26,12 +26,17 @@
 header {
     width: 100%;
     height: 10vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
     background-color: rgb(88, 46, 0);
 }
 
 main {
     background-color: rgb(210, 105, 30);
 }
+
+/* nav */
 .bg-body-tertiary {
     color: white;
     background-color: rgba(var(--88, 46, 0, 100), var(--88, 46, 0,100)) !important; /*Não sei o que é, mas vi pelo inspecionar que estava bloqueando a cor do nav*/
@@ -167,8 +172,8 @@ button>.btn,.btn-outline-success{
 /* Footer */
 
 footer {
-    width: 100%;
     height: 5vh;
+    width: 100%;
     padding: 3px;
     text-align: center;
     color: white;
