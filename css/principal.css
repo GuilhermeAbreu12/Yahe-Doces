@@ -29,8 +29,8 @@ header {
     background-color: rgb(88, 46, 0);
 }
 
-.pagina {
-    height: 95%;
+main {
+    background-color: rgb(210, 105, 30);
 }
 .bg-body-tertiary {
     color: white;
@@ -164,7 +164,7 @@ button>.btn,.btn-outline-success{
     border: 2px solid rgb(88, 46, 0);
 }
 
-
+/* Footer */
 
 footer {
     width: 100%;
